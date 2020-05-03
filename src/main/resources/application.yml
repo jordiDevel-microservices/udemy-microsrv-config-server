@@ -1,0 +1,5 @@
+spring:
+  application:    name: servicio-config-server  cloud:    config:      server:        git:          uri: https://github.com/jordiDevel/udemy-microsrv-config-repo.git
+    
+server:
+  port: 8888
